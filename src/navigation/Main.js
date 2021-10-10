@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
-import { View, Text, } from 'react-native';
-
+import { View, Text, } from 'react-native'
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../Screens/Home';
 import Details from '../Screens/Details';
@@ -23,14 +22,5 @@ function MyStack() {
       
     </Stack.Navigator>
   );
-} function drawer() {
-  return (
-   
-      <Drawer.Navigator initialRouteName="Home" >
-        <Drawer.Screen name="Home" component={BottomTab} />
-        {/* <Drawer.Screen name="Notifications" component={NotificationsScreen} /> */}
-      </Drawer.Navigator>
-    // </NavigationContainer>
-  );
-}
+} 
 export default MyStack
