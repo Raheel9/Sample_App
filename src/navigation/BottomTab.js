@@ -5,9 +5,9 @@ import Fontisto  from 'react-native-vector-icons/Fontisto';
 import React, { Component } from 'react';
 import Details from '../Screens/Details';
 import Home from '../Screens/Home';
-import Login_Screen from '../Screens/Login_Screen';
+import Login_Screen from '../Screens/Auth/Login_Screen';
 import Profile from '../Screens/Profile';
-import Sinup_Screen from '../Screens/Sinup_Screen';
+import Sinup_Screen from '../Screens/Auth/Sinup_Screen';
 const Tab = createBottomTabNavigator();
 
 function MyTabs() {

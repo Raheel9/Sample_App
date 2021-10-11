@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Login_Screen from '../Screens/Login_Screen';
-import Sinup_Screen from '../Screens/Sinup_Screen';
+import Login_Screen from '../Screens/Auth/Login_Screen';
+import Sinup_Screen from '../Screens/Auth/Sinup_Screen';
 import Home from "../Screens/Home";
 const Stack = createStackNavigator();
 
